@@ -4,7 +4,7 @@
     height: 1500px;
     width: 100%;
     max-width: 1000px;
-    border: #fff 1px solid;
+    border: #fff 0px solid;
     left: 0;   /* tam sıfır */
     right: 0;  /* tam sıfır */
     margin: 0 auto;
@@ -341,7 +341,7 @@
 }
 
 
-@media (max-width: 660px) {
+@media (max-width: 662px) {
 .leaderboardwinnerstext {
     position: absolute;
     left: 50%;
@@ -357,13 +357,43 @@
 }
 
 
-@media (max-width: 525px) {
+@media (max-width: 537.5px) {
 .leaderboardwinnerstext {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
     top: 2%;
     font-size: 35px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.85;
+    white-space: nowrap;
+}
+
+}
+
+@media (max-width: 465px) {
+.leaderboardwinnerstext {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 2%;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.85;
+    white-space: nowrap;
+}
+
+}
+
+@media (max-width: 405px) {
+.leaderboardwinnerstext {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 2%;
+    font-size: 25px;
     font-weight: bold;
     color: white;
     opacity: 0.85;
