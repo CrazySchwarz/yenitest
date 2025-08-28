@@ -4,6 +4,7 @@ body {
     margin: 0;
     position: relative;
     min-height: 100vh;
+    height: 100%;
 }
 
 body::before {
@@ -14,6 +15,7 @@ body::before {
     background: url("back.png") center/cover no-repeat;
     filter: brightness(75%); /* opacity yerine daha temiz kontrol */
     z-index: -1;
+    height: 100%;
 }
 
 .container {
@@ -21,7 +23,7 @@ body::before {
     margin-left: 0px;   /* dıştan soldan boşluk */
     margin-right: 0px;  /* dıştan sağdan boşluk */
     border: #fff 0px solid;
-    height: 2000px;
+    height: 2100px;
 }
 
 .logo {

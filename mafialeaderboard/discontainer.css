@@ -9,6 +9,10 @@
     top: 1100px;
 }
 
+
+
+
+
 .playerone {
     position: absolute ;
     height: 350px;
@@ -45,6 +49,7 @@
     opacity: 0.85;
     white-space: nowrap;
 }
+
 
 .classicpfp {
     position: absolute;

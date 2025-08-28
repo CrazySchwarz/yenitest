@@ -1,0 +1,62 @@
+.bottomthingsmaincontainer {
+    position: absolute;
+    height: 65px;
+    width: clamp(300px, 90%, 1000px);
+    left: 50%;
+    top: 1300px;
+    transform: translateX(-50%);
+    z-index: 10;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgb(31, 29, 52);
+    border: rgba(255, 255, 255, 0.11) 1px solid;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center; /* dikey ortala */
+    justify-content: space-between; /* yatayda soldan sağa düzgün dağıt */
+    padding: 0 15px; /* sağ ve soldan boşluk */
+}
+
+.username,
+.userWager,
+.userReward {
+    font-size: 15px;
+    font-weight: bold;
+    color: lightgray;
+    margin: 0;
+    position: static; /* absolute kaldırıldı */
+}
+
+@media (max-width: 981px) {
+    .bottomthingsmaincontainer {
+    position: absolute;
+    height: 65px;
+    width: clamp(300px, 90%, 1000px);
+    left: 50%;
+    top: 1950px;
+    transform: translateX(-50%);
+    z-index: 10;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgb(31, 29, 52);
+    border: rgba(255, 255, 255, 0.11) 1px solid;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center; /* dikey ortala */
+    justify-content: space-between; /* yatayda soldan sağa düzgün dağıt */
+    padding: 0 15px; /* sağ ve soldan boşluk */
+}
+
+.username,
+.userWager,
+.userReward {
+    font-size: 15px;
+    font-weight: bold;
+    color: lightgray;
+    margin: 0;
+    position: static; /* absolute kaldırıldı */
+}
+
+}
