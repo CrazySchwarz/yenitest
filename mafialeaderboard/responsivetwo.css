@@ -1,0 +1,373 @@
+@media (max-width: 818px) {
+    .discontainer {
+    position: absolute;
+    height: 1500px;
+    width: 100%;
+    max-width: 1000px;
+    border: #fff 1px solid;
+    left: 0;   /* tam sıfır */
+    right: 0;  /* tam sıfır */
+    margin: 0 auto;
+    top: 525px;
+    transform: none;
+    box-sizing: border-box; /* border genişliğe dahil olsun */
+}
+
+
+.playerone {
+    position: absolute ;
+    height: 350px;
+    width: 300px;
+    border-top: rgba(255, 141, 42, 0.7) 3px solid;
+    border-right: rgba(255, 141, 42, 0.7) 2px solid;
+    border-left: rgba(255, 141, 42, 0.7) 2px solid;
+    /* Turuncu degrade ekledik */
+    background: linear-gradient(to bottom, rgba(255, 141, 42, 0.0) 0%, rgba(255, 141, 42, 0.1) 95%), #1f1d34;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 375px;
+    border-radius: 25px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.badgeone {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: -5%;
+}
+
+.leaderboardwinnerstext {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 2%;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.85;
+    white-space: nowrap;
+}
+
+.classicpfp {
+    position: absolute;
+    height: 75px;
+    top: 25px;
+    border-radius: 50px;
+    border: #ffffff2f 2px solid;
+    padding: 2.5px;
+}
+
+.crown {
+    position: absolute;
+    height: 30px;
+    rotate: -40deg;
+    top: 17px;
+    left: 100px;
+}
+
+.playeronename {
+    position: absolute;
+    font-size: 25.5px;
+    font-weight: bold;
+    color: lightgray;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 0; /* satır yüksekliği kapanır */
+    white-space: nowrap; /* satır kırılmasını da engeller */
+}
+
+.playeronewagers {
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+    opacity: 1;
+
+    /* Shine efekti */
+    background: linear-gradient(to right, #3af875 0, #ffffff 10%, #3af875 20%);
+    background-size: 200px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5s infinite linear;
+    white-space: nowrap; /* satır kırılmasını da engeller */
+    
+}
+
+.playeroneprize {
+    position: absolute;
+    left: 50%;
+    top: 275px;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 1;
+    background-color: rgb(31, 29, 52);
+    padding: 17.5px;
+    width: 215px;
+    height: 25px;
+    border-radius: 50px;
+    color: rgb(255, 203, 102);
+
+    display: flex;
+    justify-content: center; /* yatay ortalama */
+    align-items: center;     /* dikey ortalama */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.playertwo {
+    position: absolute ;
+    height: 350px;
+    width: 300px;
+    border-top: rgba(121, 117, 158, 0.6) 3px solid;
+    border-right: rgba(121, 117, 158, 0.6) 2px solid;
+    border-left: rgba(121, 117, 158, 0.6) 2px solid;
+    /* Turuncu degrade ekledik */
+    background: linear-gradient(to bottom, rgba(121, 117, 158, 0.0) 0%, rgba(121, 117, 158, 0.1) 95%), #1f1d34;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 777px;
+    border-radius: 25px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.badgetwo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: -5%;
+}
+
+.leaderboardwinnerstext {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 2%;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.85;
+    white-space: nowrap;
+}
+
+.classicpfp {
+    position: absolute;
+    height: 75px;
+    top: 25px;
+    border-radius: 50px;
+    border: #ffffff2f 2px solid;
+    padding: 2.5px;
+}
+
+
+.playertwoname {
+    position: absolute;
+    font-size: 25.5px;
+    font-weight: bold;
+    color: lightgray;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 0; /* satır yüksekliği kapanır */
+    white-space: nowrap; /* satır kırılmasını da engeller */
+}
+
+.playertwowagers {
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+    opacity: 1;
+
+    /* Shine efekti */
+    background: linear-gradient(to right, #3af875 0, #ffffff 10%, #3af875 20%);
+    background-size: 200px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5s infinite linear;
+    white-space: nowrap; /* satır kırılmasını da engeller */
+    
+}
+
+.playertwoprize {
+    position: absolute;
+    left: 50%;
+    top: 275px;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 1;
+    background-color: rgb(31, 29, 52);
+    padding: 17.5px;
+    width: 215px;
+    height: 25px;
+    border-radius: 50px;
+    color: rgb(255, 203, 102);
+
+    display: flex;
+    justify-content: center; /* yatay ortalama */
+    align-items: center;     /* dikey ortalama */
+}
+
+
+
+
+
+
+
+
+
+
+
+.playerthree {
+    position: absolute ;
+    height: 350px;
+    width: 300px;
+    border-top: rgba(255, 132, 92, 0.6) 3px solid;
+    border-right: rgba(255, 132, 92, 0.6) 2px solid;
+    border-left: rgba(255, 132, 92, 0.6) 2px solid;
+    /* Turuncu degrade ekledik */
+    background: linear-gradient(to bottom, rgba(255, 132, 92, 0.0) 0%, rgba(255, 132, 92, 0.1) 95%), #1f1d34;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 1200px;
+    border-radius: 25px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.badgethree {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: -5%;
+}
+
+.leaderboardwinnerstext {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 2%;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.85;
+    white-space: nowrap;
+}
+
+.classicpfp {
+    position: absolute;
+    height: 75px;
+    top: 25px;
+    border-radius: 50px;
+    border: #ffffff2f 2px solid;
+    padding: 2.5px;
+}
+
+
+.playerthreename {
+    position: absolute;
+    font-size: 25.5px;
+    font-weight: bold;
+    color: lightgray;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 0; /* satır yüksekliği kapanır */
+    white-space: nowrap; /* satır kırılmasını da engeller */
+}
+
+.playerthreewagers {
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+    opacity: 1;
+
+    /* Shine efekti */
+    background: linear-gradient(to right, #3af875 0, #ffffff 10%, #3af875 20%);
+    background-size: 200px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5s infinite linear;
+    white-space: nowrap; /* satır kırılmasını da engeller */
+    
+}
+
+.playerthreeprize {
+    position: absolute;
+    left: 50%;
+    top: 275px;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 1;
+    background-color: rgb(31, 29, 52);
+    padding: 17.5px;
+    width: 215px;
+    height: 25px;
+    border-radius: 50px;
+    color: rgb(255, 203, 102);
+
+    display: flex;
+    justify-content: center; /* yatay ortalama */
+    align-items: center;     /* dikey ortalama */
+}
+
+}
+
+
+@media (max-width: 660px) {
+.leaderboardwinnerstext {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 2%;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.85;
+    white-space: nowrap;
+}
+
+}
+
+
+@media (max-width: 525px) {
+.leaderboardwinnerstext {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 2%;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.85;
+    white-space: nowrap;
+}
+
+}
